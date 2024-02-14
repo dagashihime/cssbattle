@@ -1,0 +1,36 @@
+<container style="display: block; position: relative; width: 400px; height: 300px; overflow: hidden;">
+    <span class=wrap>
+        <span style=display:flex>
+            <div class=skew></div>
+            <div class="skew r"></div>
+        </span>
+        <div class=block></div>
+    </span>
+    <style>
+        container {
+            background: #0B2429;
+        }
+        .wrap {
+            display: block;
+            margin: 80 122;
+        }
+        .skew {
+            width: 70;
+            height: 70;
+            transform: skew(45deg);
+            rotate: 90deg;
+            background: #998235;
+        }
+        .r {
+            transform: skew(-45deg);
+            background: #1A4341
+        }
+        .block {
+            margin: -15 20;
+            width: 100;
+            height: 100;
+            rotate: 45deg;
+            background: #F3AC3C;
+        }
+    </style>
+</container>
