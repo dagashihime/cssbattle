@@ -1,0 +1,28 @@
+<container style="display: block; position: relative; width: 400px; height: 300px; overflow: hidden;">
+    <div></div>
+    <div></div>
+    <style>
+        container {
+            display: flex;
+            background: #F2F2B6
+        }
+        div {
+            position: absolute;
+            top: 85;
+            width: 0;
+            border-left: 75px solid transparent;
+            border-right: 75px solid transparent;
+            border-top: 130px solid #FF6D00;
+        }
+        div:nth-of-type(1) {
+            left: 60;
+            filter: drop-shadow(20px 0 0 #FD4602);
+        }
+        div:nth-of-type(2) {
+            right: 80;
+            rotate:180deg;
+            border-top-color: #FD4602;
+            filter: drop-shadow(20px 0 0 #FF6D00);
+        }
+    </style>
+</container>

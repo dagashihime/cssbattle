@@ -1,0 +1,36 @@
+<container style="display: block; position: relative; width: 400px; height: 300px; overflow: hidden;">
+    <div />
+    <style>
+        container {
+            margin: 0;
+            background: #222730
+        }
+        div {
+            margin: 75px 0;
+            width: 100vw;
+            height: 150px;
+            background: #4CAAB3;
+        }
+        div::before {
+            display: inline-block;
+            content: '';
+            margin: 0 125;
+            width: 150px;
+            aspect-ratio: 1/1;
+            background: #4CAAB3;
+            rotate: 45deg;
+            box-shadow: 0 0 0 50px #222730;
+        }
+        div::after {
+            display: inline-block;
+            position: absolute;
+            top: 125;
+            left: 175;
+            content: '';
+            width: 50px;
+            aspect-ratio: 1/1;
+            border-radius: 100%;
+            background: #393E46;
+        }
+    </style>
+</container>

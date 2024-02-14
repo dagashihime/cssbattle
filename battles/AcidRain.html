@@ -1,0 +1,28 @@
+<container style="display: block; position: relative; width: 400px; height: 300px; overflow: hidden;">
+    <span>
+        <div></div>
+        <div></div>
+    </span>
+    <style>
+        container {
+            background: #0B2429;
+        }
+        span {
+            display: block;
+            margin: 30px 80px;
+        }
+        div {
+            width: 120px;
+            aspect-ratio: 1/1;
+            background: #F3AC3C;
+        }
+        div:nth-of-type(2) {
+            border-radius: 100% 0 100% 100%;
+            box-shadow: 60px -60px 0 0 #998235;
+        }
+        div:nth-of-type(1) {
+            margin: 0 0 0 auto;
+            border-radius: 100%;
+        }
+    </style>
+</container>

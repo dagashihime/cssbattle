@@ -1,0 +1,31 @@
+
+<container style="display: block; position: relative; width: 400px; height: 300px; overflow: hidden;">
+    <span>
+        <div></div>
+        <div></div>
+        <div></div>
+    </span>
+    <style>
+        container {
+            background:#62306D;
+        }
+        span {
+            display: flex;
+            margin: 50px
+        }
+        div {
+            margin: 50px;
+            width: 100px;
+            height: 100px;
+            background:#F7EC7D;
+        }
+        div:nth-child(even) {
+            margin: 0 0 100px 0;
+            border-radius: 50px 50px 0 0;
+        }
+        div:nth-child(odd) {
+            margin: 100px 0 0 0;
+            border-radius: 0 0 50px 50px;
+        }
+    </style>
+</container>

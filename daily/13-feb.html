@@ -1,0 +1,24 @@
+<container style="display: block; position: relative; width: 400px; height: 300px; overflow: hidden;">
+    <div></div>
+    <style>
+        div {
+          margin: 60 auto;
+          width: 80;
+          height: 80;
+          border-radius: 80px;
+          background: #C31C1D;
+          box-shadow: 70px 100px #C31C1D, -70px 100px #C31C1D, 0 0 0 999px #4A1818;
+        }
+        div::after {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 130;
+          left: 150;
+          width: 100;
+          height: 170;
+          background: linear-gradient(to right,transparent 40px, #C31C1D 40px, #C31C1D 60px, transparent 60px),
+            linear-gradient(to bottom,transparent 60px, #C31C1D 60px, #C31C1D 80px, transparent 80px)
+        }
+      </style>
+</container>
