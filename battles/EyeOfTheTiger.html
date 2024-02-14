@@ -1,3 +1,30 @@
 <container style="display: block; position: relative; width: 400px; height: 300px; overflow: hidden;">
-    <div style=margin:125+167;width:50px;height:50px;background:#0B2429;border-radius:100px;box-shadow:0+0+0+.47in#F3AC3C,0+0+0+.68in#0B2429,0+0+0+.78in#998235,0+0+0+9in#0B2429>
+    <div />
+    <style>
+        container {
+            background: #0B2429;
+        }
+        div {
+            margin: 50 auto;
+            width: 200;
+            aspect-ratio: 1/1;
+            rotate: 45deg;
+            border-radius: 100px 0 100px 0;
+            background: #998235;
+        }
+        div::after {
+            display: block;
+            position: absolute;
+            top: 75;
+            left: 75;
+            content: '';
+            width: 50px;
+            aspect-ratio: 1/1;
+            border-radius: 50px;
+            background: #0B2429;
+            box-shadow: 
+                0 0 0 45px #F3AC3C,
+                0 0 0 65px #0B2429
+        }
+    </style>
 </container>
