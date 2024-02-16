@@ -1,0 +1,27 @@
+<container style="display: block; position: relative; width: 400px; height: 300px; overflow: hidden;">
+    <div></div>
+    <style>
+        container {
+            background: #F5D6B4;
+        }
+        div {
+            position: absolute;
+            top: 165;
+            right: 100;
+            width: 50;
+            height: 50;
+            border-radius: 100%;
+            background: #D86F45;
+            box-shadow: -45px -55px 0 25px #D86F45, -125px -25px 0 25px #D86F45
+        }
+        div::after {
+            display: block;
+            position: absolute;
+            content: '';
+            right: 30;
+            width: 120;
+            height: 50;
+            background: #D86F45;
+        }
+    </style>
+</container>
