@@ -1,0 +1,24 @@
+<container style="display: block; position: relative; width: 400px; height: 300px; overflow: hidden;">
+    <div></div>
+    <style>
+        container {
+            background: #1A4341;
+        }
+        div {
+            margin: 25 auto;
+            width: 250;
+            aspect-ratio: 1/1;
+            border-radius: 99%;
+            background: linear-gradient(180deg, transparent 30%, #F3AC3C 30% 38%, transparent 38% 46%, #F3AC3C 46% 54%, transparent 54% 62%, #F3AC3C 62% 70%, transparent 70%)
+        }
+        div::after {
+            content: '';
+            display: block;
+            translate: 25px 25px;
+            width: 200;
+            aspect-ratio: 1/1;
+            border-radius: 99%;
+            background: linear-gradient(180deg, #998235 15%, transparent 15% 85%, #998235 85%);
+        }
+    </style>
+</container>

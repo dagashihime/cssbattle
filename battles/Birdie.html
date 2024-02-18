@@ -1,0 +1,36 @@
+<container style="display: block; position: relative; width: 400px; height: 300px; overflow: hidden;">
+    <div></div>
+    <style>
+        container {
+            background: #1A4341
+        }
+        div {
+            margin: 75 auto;
+            position: relative;
+            width: 150;
+            aspect-ratio: 1/1;
+            border-radius: 99%;
+            background: conic-gradient(transparent 180deg, #998235 1deg);
+        }
+        div::before {
+            content: '';
+            position: absolute;
+            top: 30;
+            left: 30;
+            width: 30;
+            aspect-ratio: 1/1;
+            border-radius: 99%;
+            background: #0B2429;
+        }
+        div::after {
+            content: '';
+            position: absolute;
+            top: -25;
+            left: -25;
+            width: 200;
+            aspect-ratio: 1/1;
+            border-radius: 99%;
+            background: conic-gradient(#F3AC3C 90deg, transparent 1deg);
+        }
+    </style>
+</container>
