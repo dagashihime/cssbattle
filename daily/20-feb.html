@@ -1,0 +1,23 @@
+<container style="display: block; position: relative; width: 400px; height: 300px; overflow: hidden;">
+    <div></div>
+    <style>
+        container {
+            background: #4A1818
+        }
+        div {
+            margin: 50 auto;
+            width: 200;
+            height: 200;
+            background: linear-gradient(90deg, #F16B4A 40%, #4A1818 40% 60%, #F16B4A 60%);
+        }
+        div::after {
+            display: block;
+            content: '';
+            translate: 70px 70px;
+            width: 60;
+            height: 60;
+            background: #F16B4A;
+            box-shadow: 0 0 0 30px #4A1818
+        }
+    </style>
+</container>
