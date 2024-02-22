@@ -1,0 +1,33 @@
+<container style="display: block; position: relative; width: 400px; height: 300px; overflow: hidden;">
+    <div></div>
+    <div></div>
+    <div></div>
+    <style>
+        container {
+            background: #0D2328
+        }
+        div {
+            margin: 132 0;
+            float: left;
+            width: 60;
+            height: 60;
+            border-radius: 99%;
+            background: #0D2328;
+            border: 20px solid #9ED7F8;
+        }
+        div::before {
+            display: block;
+            content: '';
+            translate: 100% 70px;
+            width: 20;
+            height: 100vh;
+            background: #9ED7F8
+        }
+        div:nth-of-type(1) {
+            margin-left: 42
+        }
+        div:nth-of-type(2) {
+            margin-top: 32
+        }
+    </style>
+</container>
